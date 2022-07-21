@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Styling */
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utility Classes */
+
+.container {
+    margin: auto;
+    overflow: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+.logo {
+    background: #444;
+    text-align: center;
+    padding-top: 30px;
+}
+.logo a:hover {
+    color: #f7c08a;
+}
+.l-heading {
+    color: #f7c08a;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+/* Navbar */
+#navbar {
+    background: #444;
+    color: white;
+    overflow: auto;
+}
+
+#navbar h2 {
+    float: left;
+    padding-top: 30px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 1.3em;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+}
+
+/* Showcase */
+#showcase {
+    background: url(../img/showcase.jpg);
+    height: 300px;
+}
+
+#showcase .showcase-content {
+    color: white;
+    padding-top: 70px;
+    text-align: center;
+    font-style: italic;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+/* Section */
+#home-info {
+    background: #444;
+    height: 400px;
+}
+#home-info .info-1 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+#home-info .info-2 {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
